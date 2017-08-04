@@ -3,12 +3,12 @@
 export class Boot extends Phaser.State {
 
     preload(): void {
-        console.log("preload")
+        this.game.physics.startSystem(Phaser.Physics.ARCADE);
     }
 
 
     create(): void {
-        this.game.state.start("preloader")
+        this.game.state.start("load")
     }
 
 }
