@@ -8,9 +8,9 @@ export class Load extends Phaser.State {
             fill: '#ffffff'
         });
 
-        this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-        this.game.scale.pageAlignHorizontally = true;
-        this.game.scale.pageAlignVertically = true;
+        // this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+        // this.game.scale.pageAlignHorizontally = true;
+        // this.game.scale.pageAlignVertically = true;
     }
 
     create(): void {

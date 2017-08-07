@@ -18,14 +18,12 @@ class App extends Phaser.Game {
         this.state.start("boot");
     }
 
-
-
 }
 
 function start(): void {
     let gameConfig: Phaser.IGameConfig = {
-        width: 480,
-        height: 360,
+        width: 800,
+        height: 600,
         renderer: Phaser.AUTO,
         parent: '',
         resolution: 1
